@@ -42,6 +42,7 @@ function action($argv)
             $rule_text = file_get_contents('rule');
             if ($rule_text == 'stop'){
                 $rule = false;
+                die();
             }
             var_dump($rule_text);
         }
