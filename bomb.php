@@ -2,7 +2,6 @@
 require_once 'helpers.php';
 function action($argv)
 {
-    $memavaible = (integer)getSystemMemInfo()['MemAvailable'];
     $rule = true;
 
     $is_bombed = [];
@@ -16,6 +15,7 @@ function action($argv)
         while ($rule) {
 
             foreach ($bomb_list as $key => $bomb_item) {
+                $memavaible = (integer)getSystemMemInfo()['MemAvailable'];
                 $found_result = exec('docker ps --no-trunc | grep -i '.$bomb_item);
                 $is_dockerized = (bool)(strpos($found_result, $bomb_item));
 
