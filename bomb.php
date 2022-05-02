@@ -40,11 +40,11 @@ function action($argv)
             var_dump('iteration - '.$i.' - '.date('Y-m-d h:i:s'));
 
             $rule_text = file_get_contents('rule');
-            if ($rule_text == 'stop'){
-                $rule = false;
-                die();
-            }
             var_dump($rule_text);
+            if ($rule_text == 'stop'){
+                exit();
+            }
+
         }
     }
 
