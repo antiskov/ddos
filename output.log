@@ -1,167 +1,38 @@
-PHP Warning:  Undefined array key 1 in /home/antiskov/Public/ddos/bomb.php on line 8
-array(55) {
-  [0]=>
-  string(25) "https://severstal.com/rus"
-  [1]=>
-  string(29) "https://career.severstal.com/"
-  [2]=>
-  string(28) "http://217.175.24.112:80/tcp"
-  [3]=>
-  string(29) "http://217.175.24.112:443/tcp"
-  [4]=>
-  string(27) "https://news.severstal.com/"
-  [5]=>
-  string(34) "https://distribution.severstal.com"
-  [6]=>
-  string(28) "http://217.175.23.240:80/tcp"
-  [7]=>
-  string(29) "http://217.175.23.240:443/tcp"
-  [8]=>
-  string(34) "https://market.severstal.com/ru/ru"
-  [9]=>
-  string(27) "http://78.41.110.139:80/tcp"
-  [10]=>
-  string(28) "http://78.41.110.139:443/tcp"
-  [11]=>
-  string(39) "https://suppliers.severstal.com/en-old/"
-  [12]=>
-  string(28) "http://217.175.24.107:80/tcp"
-  [13]=>
-  string(29) "http://217.175.24.107:443/tcp"
-  [14]=>
-  string(34) "https://innovations.severstal.com/"
-  [15]=>
-  string(28) "http://217.175.24.109:80/tcp"
-  [16]=>
-  string(29) "http://217.175.24.109:443/tcp"
-  [17]=>
-  string(25) "https://bt.severstal.com/"
-  [18]=>
-  string(27) "http://217.175.24.27:80/tcp"
-  [19]=>
-  string(28) "http://217.175.24.27:443/tcp"
-  [20]=>
-  string(35) "https://staffing.severstal.com/auth"
-  [21]=>
-  string(27) "http://217.175.24.86:80/tcp"
-  [22]=>
-  string(28) "http://217.175.24.86:443/tcp"
-  [23]=>
-  string(35) "https://lk.mph.severstal.com/login/"
-  [24]=>
-  string(29) "http://178.154.246.131:22/tcp"
-  [25]=>
-  string(29) "http://178.154.246.131:80/tcp"
-  [26]=>
-  string(30) "http://178.154.246.131:443/tcp"
-  [27]=>
-  string(31) "http://178.154.246.131:9100/tcp"
-  [28]=>
-  string(41) "https://bstest.severstal.com/login.action"
-  [29]=>
-  string(27) "http://217.175.24.94:80/tcp"
-  [30]=>
-  string(28) "http://217.175.24.94:443/tcp"
-  [31]=>
-  string(29) "https://chermk.severstal.com/"
-  [32]=>
-  string(28) "http://217.175.24.112:80/tcp"
-  [33]=>
-  string(29) "http://217.175.24.112:443/tcp"
-  [34]=>
-  string(28) "http://217.175.24.79:443/tcp"
-  [35]=>
-  string(29) "http://217.175.23.242:443/tcp"
-  [36]=>
-  string(27) "http://217.175.23.8:443/tcp"
-  [37]=>
-  string(29) "http://217.175.24.189:443/tcp"
-  [38]=>
-  string(29) "http://217.175.24.192:443/tcp"
-  [39]=>
-  string(28) "http://217.175.24.93:443/tcp"
-  [40]=>
-  string(28) "http://217.175.24.74:443/tcp"
-  [41]=>
-  string(28) "http://217.175.24.39:443/tcp"
-  [42]=>
-  string(28) "http://217.175.24.21:443/tcp"
-  [43]=>
-  string(29) "http://217.175.24.200:443/tcp"
-  [44]=>
-  string(27) "http://84.38.185.177:21/tcp"
-  [45]=>
-  string(27) "http://84.38.185.177:22/tcp"
-  [46]=>
-  string(27) "http://84.38.185.177:80/tcp"
-  [47]=>
-  string(28) "http://84.38.185.177:443/tcp"
-  [48]=>
-  string(29) "http://84.38.185.177:5432/tcp"
-  [49]=>
-  string(29) "http://84.38.185.177:9100/tcp"
-  [50]=>
-  string(26) "http://217.175.23.3:53/udp"
-  [51]=>
-  string(26) "http://217.175.23.4:53/udp"
-  [52]=>
-  string(28) "http://217.175.18.117:53/udp"
-  [53]=>
-  string(26) "http://13.80.145.65:53/udp"
-  [54]=>
-  string(28) "http://217.175.25.190:53/udp"
-}
-f49cf6771c45354a8b3f4bf48615881e3942ba23a8e7a7c1e6078ed97c399514
-7a7bea4c9418bcc578888c0a36e2bcb7165f954f5860eb792171982705e98e89
-49d27dc9c7852ae070cb94ad663020a020ab0c823300722e69da11b2914a5bbc
-ef2599159321395e705451d1c07d4e837e1b4335484ba0d21f5a7c7517abdd51
-eb3e0ad4611bf83af8f84e2523637c203ebbb0a8b5560925a6add0f3923654e8
-f5406b8f0dd2b8031b8e5202979c81fef6ae3d8b97001c6ce10ab4e653269897
-021854184a591aed89d36dbb4841e7f1da30ed7da2569166b472f1e38cf99eab
-8cdfd53a17f31d1ef0a9bfbfd8e87be271e7b7bd3e1cdab6203c370fab24ef5a
-bb7ad0f6c22fb5f87521e683c12b547364389611af8cef0acddea2bb806477bb
-35d9b225e34fa8a9a323687298d50bd44bb7f12186de96654dc21df43390d204
-885eac360f77c9982775b07f73068e80b9ec4c839a68908bedf5c34320fb0ff3
-996d7a65f409e92eba51f34f2300aef54700930d9ef56b1b380104188ad3bf46
-3e1a86073d8bc478036de78fb9543cd1344830aa28674c8bee6e8d0b722042c3
-d316ea85ce7909622cb5fd52de6604cf648648401148a899f6c74d9a4cedbceb
-608e064a98da82a0c518c92140bd851b9c378e1db4f707f3aab5af146dd2f73d
-24b56ac0df39eb5830abc55b3ac2925b83a32c0712cf8a059268c456cb09774d
-78e2353cd049022d3937e303e330cba242b0dcb06fa511cd0b718bd9b7540dcd
-7584a42cfa9b25d00a234f4b3588297a4c091371e6a9cd40dab5fe7849cf35de
-27ac994b24d6b2988dda03aa0a0ae6e8728b1c5636f1708c26e224602b5787a5
-c45fb126ce60b58004ea2c2b687048b27afc26d9fc3bbb81062e0cdde8bc6ce5
-ff7da3dcf433b341914ff7302e8b879226df79eb44c1aaf722a823d5b022f4d6
-2a162e0d112c457f6f708d90dff0ff42bd91e35d0bb4c048ec8129b63e33c20a
-8db29f6108bf2a980459fbcf0e2bfa5081d3956b89b7804ddf89056dbe334170
-940b99225afe88eccac2f08befba499b8994350de1354d9cbedec40bef990689
-7fc2cd3e11a35d3a33128ec5b52c0d406c8f0fe4c87266c636614dd4755e8ad7
-19e6327ea9ce47883aa9262241340eaeaccae79fc4b0b61e4a35d08baf286afc
-0fce396bdd3d2f1dd70edb14f209d1fd3a8b768503ed5da29a0e079b8d065e24
-4285d538183bcc8a1b0831530fcb3f44d2c852b0c1368cd325dfdafa4147fde2
-98371afd4c79ca64a54aea84d511fdda3234c311c9473691634a85cc79f884c1
-2b2c1975a33ffa3deb1c8b12f0b2c3fc02cdfd93c82c31da969e710cb5988c2e
-a85b8ce5aef5f229bfe955411a241bfdf124984371ca4ef4723c8f2dd4f1bb23
-98fff72399240aaa353f6073b5b9b052d23739e8be5ff3e7700d87c5ebac5346
-6831a4aa4f0d35c7777f78287e03df5a0e11a6626dedf853e1f9d93cd85af160
-0cda607f4b450f2c09b9053dc5ad021138e6b5596faf2f3dab4a7922ad95c145
-bf3b4652bc0fb9cbda2abc9b181c5f9ff634089edefae0887b2f89efa2e2c52b
-1ec3833ba2fe2bb50a5c626a71173e004cb874cd7931a2c701f492604eca340f
-65dcdebfd45cdfe118a0900717073930a0b953ebb69fc448692140dd2dcb8bab
-90aed919a5cb6921d789a148172464f27d50e4d7e59e25815a51921a2435a2aa
-866eb1ccabd86576b66f197d1f9340a163284378984e87a245b0f35e6dc1acd3
-4a9e02994012e4b8c30e6ad70253377566cd5bc2049f922256cfe3d2db504402
-ef8b45bd4971778176790e63a9120898952fc8c10c68efbfb27cc96a2ccd31db
-e40a419cb6aa4d0f0571c908e238370e0abe87d8c06dc7745351ea5d73233f35
-4d163d4d0fef1b9c702805bc88fb69ce4d98f852818f8cd1c7e34b7700aaa940
-2e2b32500cc5f5f4acac95f155069b32903527d6a00357a34287a35c7005321e
-b45e0a8a1ca682f837318719e209d0b64f35abc3862b4cc96320a40f5f8c853d
-6cd43f9a41c57975de8f60a4161660db568c84280842679cad300cce32351cff
-524652488fb608cf8e0457c4657f5048231bf5f36636f7197e61e1c65d589c35
-487202fa1ee4513aa1ed7e31b2402dbdf29719b45bd1f66f79a8a7984c3cf94a
-858cde744d594869cd294b9531f9f556b340f09445597c7bf38d6161a95f6e1c
-e337352495401a6df53ed5f309636f9ac6df8d8f708d3cb665912d2785f8e9ec
-4b5f3e96d15c860587abb6cf15914b383164760b65645851f1c47a52063b0701
-b907a9faeca57f17e93e059f5bc7f2b57b386751ab54797484b59afacc7ab0c5
-90207f464430ac071d06fea336405002fa6ca217723d94468edcd38326e0b673
-string(35) "iteration - 0 - 2022-04-29 02:45:40"
+string(35) "iteration - 1 - 2022-05-02 06:51:48"
+string(5) "start"
+string(35) "iteration - 2 - 2022-05-02 06:51:48"
+string(5) "start"
+string(35) "iteration - 3 - 2022-05-02 06:51:48"
+string(5) "start"
+string(35) "iteration - 4 - 2022-05-02 06:51:49"
+string(5) "start"
+string(35) "iteration - 5 - 2022-05-02 06:51:49"
+string(5) "start"
+string(35) "iteration - 6 - 2022-05-02 06:51:49"
+string(5) "start"
+string(35) "iteration - 7 - 2022-05-02 06:51:50"
+string(5) "start"
+string(35) "iteration - 8 - 2022-05-02 06:51:50"
+string(5) "start"
+string(35) "iteration - 9 - 2022-05-02 06:51:50"
+string(5) "start"
+string(36) "iteration - 10 - 2022-05-02 06:51:50"
+string(5) "start"
+string(36) "iteration - 11 - 2022-05-02 06:51:51"
+string(5) "start"
+string(36) "iteration - 12 - 2022-05-02 06:51:51"
+string(5) "start"
+string(36) "iteration - 13 - 2022-05-02 06:51:51"
+string(5) "start"
+string(36) "iteration - 14 - 2022-05-02 06:51:52"
+string(5) "start"
+string(36) "iteration - 15 - 2022-05-02 06:51:52"
+string(5) "start"
+string(36) "iteration - 16 - 2022-05-02 06:51:52"
+string(5) "start"
+string(36) "iteration - 17 - 2022-05-02 06:51:52"
+string(5) "start"
+string(36) "iteration - 18 - 2022-05-02 06:51:53"
+string(5) "start"
+string(36) "iteration - 19 - 2022-05-02 06:51:53"
+string(4) "stop"

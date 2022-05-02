@@ -12,10 +12,25 @@ if (isset($_POST['targets'])) {
     exec($command);
 }
 
+if (isset($_POST['stop'])){
+    file_put_contents('rule', 'stop');
+    while ((integer)(exec('docker ps -q | wc -l')) > 0){
+        exec('docker rm --force $(docker ps -a -q)');
+    }
+
+} else {
+    file_put_contents('rule', 'start');
+}
+
 require_once 'helpers.php';
 $memavaible = (integer)getSystemMemInfo()['MemAvailable'];
 
 echo 'free memory - ' . (integer)($memavaible / 1000) . 'mb';
+
+$count_of_attacks = exec('docker ps -q | wc -l');
+echo '<br>';
+echo 'count of attacks that are running- '.$count_of_attacks;
+
 ?>
 
 <html lang="en">
@@ -32,5 +47,16 @@ echo 'free memory - ' . (integer)($memavaible / 1000) . 'mb';
 
     <button type="submit">action</button>
 </form>
+
+<form action="" method="post">
+    <label for="">
+        <input type="hidden" name="stop" value="1">
+    </label>
+    <button type="submit">Stop</button>
+</form>
+
+
+<h1><a href="/">home</a></h1>
+
 </body>
 </html>
