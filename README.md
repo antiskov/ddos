@@ -15,3 +15,7 @@ https://ofd.kontur.ru
 46.17.204.250 (443/tcp, 8080/tcp, 8081/tcp)"
 
 and bomb.php in background is parsing targets and starting docker commands for ddos-attack
+
+not forget!
+sudo chown -R www-data:www-data /var/www
+chmod 666 /var/run/docker.sock
