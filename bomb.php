@@ -9,6 +9,9 @@ function action($argv)
     $i = 0;
 
     $bomb_list = getBombList($argv);
+
+    $memory_limit = (integer)(file_get_contents('memory_limit'));
+
     if (!empty($bomb_list)){
         while ($rule) {
 
@@ -16,7 +19,7 @@ function action($argv)
                 $found_result = exec('docker ps --no-trunc | grep -i '.$bomb_item);
                 $is_dockerized = (bool)(strpos($found_result, $bomb_item));
 
-                if(($memavaible/1000) > 1000
+                if(($memavaible/1000) > $memory_limit
                     && !in_array($bomb_item, $is_bombed)
                     && !$is_dockerized
                 ){

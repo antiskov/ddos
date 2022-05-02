@@ -1,36 +1,13 @@
 <?php
-if (isset($_POST['targets'])) {
-
-    $targets = $_POST['targets'];
-
-    $targets = str_replace('"', '', $targets);
-    $targets = str_replace("'", '', $targets);
-    $s = '"';
-
-    $command = "php action.php " . $s . $targets . $s;
-
-    exec($command);
-}
-
-if (isset($_POST['stop'])){
-    file_put_contents('rule', 'stop');
-    while ((integer)(exec('docker ps -q | wc -l')) > 0){
-        exec('docker rm --force $(docker ps -a -q)');
-    }
-
-} else {
-    file_put_contents('rule', 'start');
-}
-
 require_once 'helpers.php';
-$memavaible = (integer)getSystemMemInfo()['MemAvailable'];
+if (isset($_POST['targets'])) {
+    startAttack();
+}
+markAttack();
 
-echo 'free memory - ' . (integer)($memavaible / 1000) . 'mb';
+setInfo();
 
-$count_of_attacks = exec('docker ps -q | wc -l');
-echo '<br>';
-echo 'count of attacks that are running- '.$count_of_attacks;
-
+$memory_limit = getMemoryLimit();
 ?>
 
 <html lang="en">
@@ -57,6 +34,13 @@ echo 'count of attacks that are running- '.$count_of_attacks;
 
 
 <h1><a href="/">home</a></h1>
+
+<form action="" method="post">
+    <label for="">
+        <input type="number" name="memory_limit" value="<?php echo $memory_limit ?>">
+    </label>
+    <button type="submit">set memory limit</button>
+</form>
 
 </body>
 </html>
